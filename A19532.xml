@@ -1,0 +1,592 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Specimen epigrammatum Iacobo Primo Britanniarum Regi dicatum a G. Cragio I.D.</title>
+            <author>Craig, George, fl. 1624.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1624</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 12 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A19532</idno>
+            <idno type="STC">STC 5961</idno>
+            <idno type="STC">ESTC S116637</idno>
+            <idno type="EEBO-CITATION">99851853</idno>
+            <idno type="PROQUEST">99851853</idno>
+            <idno type="VID">17145</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A19532)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 17145)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 984:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Specimen epigrammatum Iacobo Primo Britanniarum Regi dicatum a G. Cragio I.D.</title>
+                  <author>Craig, George, fl. 1624.</author>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>Ex officina M. F[lesher],</publisher>
+                  <pubPlace>Londini :</pubPlace>
+                  <date>1624.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Printer's name from STC.</note>
+                  <note>Signatures: A.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Epigrams, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:17145:1" rendition="simple:additions"/>
+            <pb facs="tcp:17145:1"/>
+            <p>
+               <hi>Specimen</hi> EPIGRAMMATVM IACOBO PRIMO <hi>Britanniarum Regi</hi>
+            </p>
+            <p>
+               <hi>Dicatum</hi> A <hi>G. CRAGIO I. D.</hi>
+            </p>
+            <p>
+               <hi>LONDINI</hi> Ex Officina <hi>M. F.</hi> 1624.</p>
+         </div>
+      </front>
+      <body>
+         <div type="epigrams">
+            <pb facs="tcp:17145:2"/>
+            <pb facs="tcp:17145:2"/>
+            <head>AD REGEM.</head>
+            <div type="part">
+               <l>PErſa ſuo Regi pauper de flumine munus</l>
+               <l>Hauſit, &amp; acceptum Rex venerande fuit.</l>
+               <l>Euphratis dedit hic, ego do Permeſſidis hauſtum,</l>
+               <l>Et de pierio pocula fonte tibi.</l>
+               <l>Si capis, &amp; gratum eſt: rotum Permeſſida ducam,</l>
+               <l>Et Tameſis ſacra turgidus ibit aqua.</l>
+            </div>
+            <div n="2" type="part">
+               <head>II.</head>
+               <l>SAcrorum genibus Regum rudis illa vetuſtas</l>
+               <l>Et dextris folita eſt baſia ferre Deûm.</l>
+               <l>Nos quite merito veneramur maxime Regum</l>
+               <l>Dignamur dextrae baſia ferre tuae.</l>
+               <l>Nempe Deû ſocia qui protegis omnia dextra;</l>
+               <l>Non alia melius parte colendus eras.</l>
+            </div>
+            <div n="3" type="part">
+               <pb facs="tcp:17145:3"/>
+               <head>III.</head>
+               <l>RElligio tecum Scotorum in finibus orta,</l>
+               <l>Et tecum in cunis paene repoſta fuit.</l>
+               <l>Nec tantum nata eſt, ſed tecum crevit &amp; aucta eſt,</l>
+               <l>Et viſa eſt nobis paene gemella tibi.</l>
+               <l>Vt<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> puer quondam, nunc vir perfectus haberis,</l>
+               <l>Sic per te culmen nuper adepta ſuum eſt.</l>
+               <l>Ergo Relligio tantum nunc diſtat ab illa,</l>
+               <l>Quantum à te diſtas maxime vir puero.</l>
+            </div>
+            <div n="4" type="part">
+               <head>IV.</head>
+               <l>ASſiſtit jus faſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Iovi (ſi credere fas eſt)</l>
+               <l>Vt juſtum ſit quod Rex ſine lege velit.</l>
+               <l>Aſſiſtit jus faſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> tibi digniſſime Regum</l>
+               <l>Vt quicquid juſtum eſt hoc ſine fine velis.</l>
+               <l>Fallor, &amp; id fas eſt de te quo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> credere, quando</l>
+               <l>Quae ſunt juſta velis, nec niſi juſta velis.</l>
+            </div>
+            <div n="5" type="part">
+               <head>V.</head>
+               <l>CVm ſpecies Rex magne feris Natura miniſtret</l>
+               <l>Queis hoſtem valeat noſcere quae<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſuum:</l>
+               <l>
+                  <pb facs="tcp:17145:3"/>
+Cur qua te noſcant nullam Natura miniſtrat<g ref="char:punc">▪</g>
+               </l>
+               <l>Qui tot venando ſternis ubi<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> feras?</l>
+               <l>Nempe feras à te tutari neſcia noto,</l>
+               <l>Te non praenotum maluit eſſe malum.</l>
+            </div>
+            <div n="6" type="part">
+               <head>VI.</head>
+               <l>CVm ferus ad pugnam toties te concitet hoſtis,</l>
+               <l>Ludere cur tantum Rex <hi>Iäcobe</hi> ſoles?</l>
+               <l>Nempe datur cuivis pugnando vincere poſſe,</l>
+               <l>Hoſtes ludendo vincere poſſe tibi.</l>
+            </div>
+            <div n="7" type="part">
+               <head>VII.</head>
+               <l>CVr Chriſtus Domini ſperanti plurima nil das,</l>
+               <l>At Chriſtus Dominus ſpes jubet eſſe ratas?</l>
+               <l>Caſus ubi<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> valet: patrius ſibi caſus habendi eſt,</l>
+               <l>Conveniens votis eſt minus ille meis.</l>
+               <l>Sit Ieſu rectus, quia non ens nominat ut ſit,</l>
+               <l>Communem patrium fecit utrique Dens.</l>
+               <l>Vt mihi des quae ſunt, proprium tibi reddo dativu<g ref="char:cmbAbbrStroke">̄</g>,</l>
+               <l>Nec Chriſtum Domini te voco, ſed Domino.</l>
+            </div>
+         </div>
+         <div type="epigrams">
+            <pb facs="tcp:17145:4"/>
+            <head>Ad Carolum Principem.</head>
+            <div type="part">
+               <l>AVguſto ſub Patre geris res <hi>Carole</hi> noſtras,</l>
+               <l>Auſpiciiſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Patris commoda noſtra juvas.</l>
+               <l>Et quae te quondam ſenſura Britannia Regem eſt,</l>
+               <l>Nunc conſultorem ſentit adeſſe ſibi.</l>
+               <l>Ergo dedit multis regnum natura, mererc</l>
+               <l>Regnum ſed ſoli contigit ante tibi.</l>
+            </div>
+            <div n="2" type="part">
+               <head>II</head>
+               <l>PRincipis exemplar digni ſi <hi>Carole</hi> quaeris,</l>
+               <l>Quod<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> olim fugias, quod<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſequaris, aves.</l>
+               <l>Non ego <hi>Zenonem</hi> jubeam vel adire <hi>Platonem,</hi>
+               </l>
+               <l>Et vetus et mancum eſt quicquid uter<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> docet.</l>
+               <l>Nec jubeam <hi>Iuſti</hi> quamvis pia dogmata <hi>Lipſi,</hi>
+               </l>
+               <l>Vel <hi>Machiavelli</hi> ſcripta nefanda legas.</l>
+               <l>Omnis ad exemplar formetur vita paternum,</l>
+               <l>Tu regere imperio non meliore potes.</l>
+            </div>
+         </div>
+         <div type="epigram">
+            <head>Ad Ponticum.</head>
+            <l>SEptimus innumeris cu<g ref="char:cmbAbbrStroke">̄</g> nummis labitur annus,</l>
+            <l>Dum quaeris Domino complacuiſſe tuo.</l>
+            <l>
+               <pb facs="tcp:17145:4"/>
+Octavuſque fugit, dum quaeris quod tibi quaeras;</l>
+            <l>Nonus dum quaeris Regis habere manum.</l>
+            <l>Poſtremò remoras dum quaeris tollere cunctas,</l>
+            <l>Fecerunt vacuum te tria luſtra ſenem.</l>
+            <l>Hei mihi, quaerendo tempus conſumis &amp; aera:</l>
+            <l>Vis fieri dives, <hi>Pontice?</hi> quaere nihil.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Paulum.</head>
+            <l>INter quaeſtores unus mihi Paule videris<g ref="char:punc">▪</g>
+            </l>
+            <l>Fidus, et officio dignior eſſe tuo.</l>
+            <l>Non tamen hoc dubio didici ſermone popelli,</l>
+            <l>Difficile eſt veſtram teſte probare fidem.</l>
+            <l>Quam reliquos probat eſſe malos opulentia dives,</l>
+            <l>Tam tua paupertas te probat eſſe probum.</l>
+         </div>
+         <div type="epigram">
+            <head>In Gillonem.</head>
+            <l>DEfunctae uxoris Gillo formavit in aere</l>
+            <l>Effigiem, multa quam pietate colit.</l>
+            <l>Et quoties ſpectat, toties amplectitur ulnis,</l>
+            <l>Oſcula<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> adjungit, blanditiaſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> facit.</l>
+            <l>
+               <pb facs="tcp:17145:5"/>
+Mira viri pietas! Vxoris Gillo maligna:</l>
+            <l>Relliquias gaudet ſaepe videre ſuae.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad G. Buchaenanum.</head>
+            <l>SInt verſus <hi>Buchanane</hi> tui vel Apolline digni,</l>
+            <l>Fas tamen eſt unum diſplicuiſſe mihi.</l>
+            <l>Nam dolet extremo tandem conſiſtere verſu,</l>
+            <l>Extremus verſus quod foret ille tibi.</l>
+         </div>
+         <div type="epigram">
+            <head>In Iul. Scaligerum.</head>
+            <l>
+               <hi>SCaliger</hi> obſcura depingens arte poëtam</l>
+            <l>Iudicio ingenium ſubjicit omne ſuo.</l>
+            <l>
+               <hi>Scaliger</hi> obſcura ſe praeſtans arte poëtam,</l>
+            <l>Iudicium ingenio ſuſtulit omne ſuo.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad G. Egliſhemium.</head>
+            <l>QVod tibi cum patrio eſt <hi>Egliſhemi</hi> vate duellu<g ref="char:cmbAbbrStroke">̄</g>
+            </l>
+            <l>Aſpexi magna non ſine laude tua.</l>
+            <l>Et quamvis multi <hi>Buchananum</hi> vincere credant,</l>
+            <l>Tu ſolus palmam me tribuente feres.</l>
+            <l>
+               <pb facs="tcp:17145:5"/>
+Sciliet in quarto patriae das cantica ſolus,</l>
+            <l>Queis videor melius tergere poſſe nates.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Damianum.</head>
+            <l>VXorem affectu tractas <hi>Damiane</hi> paterno,</l>
+            <l>ſed vix aſpectum ſuſtinet illa tuum.</l>
+            <l>Crede mihi neſcis juvenem tractare maritam,</l>
+            <l>Te cupit eſſe virum, non cupit eſſe patrem.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Naevolum.</head>
+            <l>ARtibus ingenuis metuis committere natos</l>
+            <l>
+               <hi>Naevole,</hi> quod multos infatuare ſolent.</l>
+            <l>Sed fruſtra metuis; fatuos de ſemine patris</l>
+            <l>Ars iterum fatuos reddere nulla poteſt.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Avitum.</head>
+            <l>SAEpe doles miſerè tranſactae damna juventae,</l>
+            <l>Et velles primos poſſe redire dies.</l>
+            <l>Condoleo, vitulum<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> tibi mactabo bidentem,</l>
+            <l>Stultitia ſapiens factus <hi>Avite</hi> tua es.</l>
+         </div>
+         <div type="epigram">
+            <pb facs="tcp:17145:6"/>
+            <head>Ad Laeliam.</head>
+            <l>CVrſemper laudas, imitaris <hi>Laelia</hi> nunquam</l>
+            <l>Alceſtae factum? <hi>L.</hi> Res quia rara fuit.</l>
+            <l>Si faceres non rara foret: veram adjice cauſam,</l>
+            <l>An proſe vivit vir tuus ipſe ſatis?</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Geddaeum.</head>
+            <l>
+               <hi>LIndeſi</hi> tibi mitto libens <hi>Geddaee</hi> libellum,</l>
+            <l>Quem volui eſſe meum, <hi>Neutonus</hi> eſſe tuum.</l>
+            <l>Vicit amorſocii ne dicito, nam<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ego cum ſis</l>
+            <l>Alter, dico meum, quod vocat ille tuum.</l>
+         </div>
+         <div type="epitaph">
+            <head>Ejuſdem Epitaphium.</head>
+            <l>QVid Lacheſin duraſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> querar Geddaee ſorores</l>
+            <l>Ante tuum longè te rapuiſſe diem.</l>
+            <l>Crede mihi non te ſolum rapuere ſorores,</l>
+            <l>Sed dum te rapiunt, me rapuere mihi.</l>
+         </div>
+         <div type="epigram">
+            <head>In Broderium. I. C.</head>
+            <l>BRoderium noſtra cum ſors plantarit in urbe,</l>
+            <l>Vt prole &amp; Latia lege beata foret.</l>
+            <l>
+               <pb facs="tcp:17145:6"/>
+Cur nos tam denſa foecundus prole beavit,</l>
+            <l>Sed nihilin latia lege beare valet?</l>
+            <l>Scilicet uxorem dederat quae gignere poſſet,</l>
+            <l>Nullam quae poſſet jura docere dedit.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Turraeum.</head>
+            <l>VIrtutes Turraee tuas ructare volebat</l>
+            <l>Rufus, et ex alto mittere verba loco.</l>
+            <l>Sed velut AEſonidae cauſam dicturus ad urnam</l>
+            <l>Palluit, atque unum vix bene dixit ave.</l>
+            <l>Scilicet aptatis ſolum ad convitia buccis,</l>
+            <l>Non potuit titulos contemerare tuos.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Pollinicum.</head>
+            <l>QVi tibi et uxori placeat Pollinice ſervum</l>
+            <l>Scribis in antiqua te reperiſſe domo.</l>
+            <l>Gratulor, et ſervi virtutes laudo, fed unum</l>
+            <l>Non placet, uxori quod placuiſſe refers.</l>
+         </div>
+         <div type="epigram">
+            <pb facs="tcp:17145:7"/>
+            <head>Ad Paulum.</head>
+            <l>SAEpe bonam multis cauſam de millibus optas</l>
+            <l>Cur mare diverfis it<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> redit<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> vadis.</l>
+            <l>Conſule Cauſidicos et magnos Paule patronos,</l>
+            <l>Hi faciunt cauſam quamlibet eſſe bonam.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Gallum.</head>
+            <l>DIceris obtuſas ſemper tractare machaeras</l>
+            <l>Vt valeas hoſtes ſternere Galle tuos.</l>
+            <l>Crede mihi fruſtra tantum te Galle fatigas,</l>
+            <l>Vt valeas hoſtes ſternere, ſis medicus.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Fauſtinum.</head>
+            <l>VT vulgus <hi>Fauſtine</hi> fidem tibi praebeat, omnes</l>
+            <l>Fruſtra adhibes teſtes ad tua verba Deos.</l>
+            <l>Dic te mentiri, ſi vis tibi credere vulgum,</l>
+            <l>Nam verum hoc vulgus vel ſine teſte putat.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Paulum.</head>
+            <l>QVod pro defunctis tantu<g ref="char:cmbAbbrStroke">̄</g> ſibi <hi>Paule</hi> canendo</l>
+            <l>Lucrantur Monachi ſacrifici<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> doles.</l>
+            <l>
+               <pb facs="tcp:17145:7"/>
+Sed fruſtra, nam ſi tantum ſibi <hi>Paule</hi> lucrantur,</l>
+            <l>Pro vivis Monachi ſacrifici<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> canunt.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Ponticum.</head>
+            <l>VT vetulum multum<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ſenem te Pontice cre<g ref="char:EOLhyphen"/>dam,</l>
+            <l>Enumeras canos, ut <hi>Melibaeus</hi> oves.</l>
+            <l>Crede mihi centum non credo Pontice canis,</l>
+            <l>Deliro capiti credere malo tuo.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Album Paſtorem.</head>
+            <l>ALbe fidem ſolam media quid quaeris in aula?</l>
+            <l>Hîc ſpe, non ſola vivitur Albe fide.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Avitum.</head>
+            <l>PLurima te nobis ſemper debere fateris:</l>
+            <l>Sat ſcio, nam ſemper ſolvis Avite nihil.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Aulum.</head>
+            <l>COnſiliu<g ref="char:cmbAbbrStroke">̄</g> cur ſperno cuum fruſtra <hi>Aule</hi> requiris:</l>
+            <l>Conſilium laudo, ſperno quod <hi>Aule</hi> tuu<g ref="char:cmbAbbrStroke">̄</g> eſt.</l>
+         </div>
+         <div type="epigram">
+            <pb facs="tcp:17145:8"/>
+            <head>Ad Quintium.</head>
+            <l>VXorem facientem aliquid ſibi Quintius optat,</l>
+            <l>Optatum obtinuit, cornificam<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> tulit.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Gallum.</head>
+            <l>GEmmas at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> auru<g ref="char:cmbAbbrStroke">̄</g> multae jaculantur arenae,</l>
+            <l>Sola Dieppenſis Galle cacare poteſt.</l>
+         </div>
+         <div type="epigram">
+            <head>In Plagiarium.</head>
+            <l>TAle tibi carmen qualis tibi contigit uxor,</l>
+            <l>Quae ne<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> totatua eſt, quae ne<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> tota mea eſt.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Lectorem.</head>
+            <l>ARgutus tibi forſan erit meus ille libellus,</l>
+            <l>Cornutus forſan tu mihi lector eris.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Zorlum.</head>
+            <l>QVodnihil inveniam ſine magno ſaepe labore,</l>
+            <l>Ingenium culpas Zoile ſaepe meum.</l>
+            <l>Sed fruſtra culpas: ſine magno nam<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> labore</l>
+            <l>Stultitiam invenio Zoile ſaepe tuam.</l>
+         </div>
+         <div type="epigram">
+            <pb facs="tcp:17145:8"/>
+            <head>Ad Ro: Aitonium Equitem.</head>
+            <l>NObilis <hi>Aitoni</hi> cui dictant carmina Muſae,</l>
+            <l>In ſacras veniet ſi liber iſte manus:</l>
+            <l>Nil tibi diſpliceat quod in illo plurima cernas</l>
+            <l>Vel mala, vel certè queis meliora velis.</l>
+            <l>Nam<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> meum velle eſt ut poſſum ſcribere carmen,</l>
+            <l>Vt vis ſed carmen ſcribere poſſe tuum eſt.</l>
+         </div>
+         <div type="epigram">
+            <head>Ad Aulum.</head>
+            <l>HIc breuis et curtus forſan liber Aule videtur,</l>
+            <l>Sed Regi ad longos non vacat Aule modos.</l>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
